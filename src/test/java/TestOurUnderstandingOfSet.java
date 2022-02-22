@@ -36,7 +36,7 @@ public class TestOurUnderstandingOfSet {
 
         @Test
         void withTwoEqualElementsShouldHaveASizeOfOne() {
-            HashSet<Integer> integers = new HashSet<>(asList(10, 10));
+            HashSet<Integer> integers = new HashSet<>(asList(0, 0));
 
             assertThat(integers.size(), is(1));
         }
